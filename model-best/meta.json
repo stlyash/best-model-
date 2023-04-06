@@ -1,0 +1,107 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.1,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"Unknown",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "College Name",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Location",
+      "Name",
+      "Skills",
+      "UNKNOWN",
+      "Years of Experience"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.5189873418,
+    "ents_p":0.5420673077,
+    "ents_r":0.4977924945,
+    "ents_per_type":{
+      "Name":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Location":{
+        "p":0.5333333333,
+        "r":0.7547169811,
+        "f":0.625
+      },
+      "Email Address":{
+        "p":0.8360655738,
+        "r":0.9622641509,
+        "f":0.8947368421
+      },
+      "Designation":{
+        "p":0.649122807,
+        "r":0.5401459854,
+        "f":0.5896414343
+      },
+      "Companies worked at":{
+        "p":0.3429752066,
+        "r":0.497005988,
+        "f":0.4058679707
+      },
+      "College Name":{
+        "p":0.5538461538,
+        "r":0.4615384615,
+        "f":0.5034965035
+      },
+      "Degree":{
+        "p":0.5862068966,
+        "r":0.5,
+        "f":0.5396825397
+      },
+      "Graduation Year":{
+        "p":0.4090909091,
+        "r":0.4821428571,
+        "f":0.4426229508
+      },
+      "Skills":{
+        "p":0.4444444444,
+        "r":0.0235294118,
+        "f":0.0446927374
+      },
+      "Years of Experience":{
+        "p":0.1666666667,
+        "r":0.1,
+        "f":0.125
+      }
+    },
+    "transformer_loss":18726.8083739728,
+    "ner_loss":21431.6600848481
+  }
+}
